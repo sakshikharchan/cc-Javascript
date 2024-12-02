@@ -42,3 +42,10 @@ console.log(str3)
 let gamechanger =100
 gamechanger++;
 console.log(gamechanger)
+
+
+console.log(2+2)
+console.log(3-3)
+console.log(9*5)
+console.log(8*5)
+console.log(2>1)
