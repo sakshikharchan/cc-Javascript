@@ -1,0 +1,21 @@
+/*primtive datatype 7 (data acccess)->call by value 
+string ,Number , Null,Boolean,undefined ,symbol,BigInt
+Non -primtive datatype(referance type)
+Array,objets ,fuunction 
+*/
+const hero=["shakti","ramm"];//array
+
+let myobj = {              //object
+    name:"saskj",
+    age:22,
+}
+
+const myFunction =function()  //function
+{
+    console.log("hello world");
+}
+console.log(typeof hero)
+
+const id =symbol('123')
+const anotherid =symbol('123')
+console.log(id === anotherid)
