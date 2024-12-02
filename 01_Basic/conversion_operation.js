@@ -1,15 +1,15 @@
-/*let score =33
+let score =33
 console.log(typeof(score))
 console.log(typeof score)
 
 // suppose i am give the value in string formst means in "" then what result be show
-*/
+
 let scoremarks =undefined
-//console.log(typeof scoremarks)
+console.log(typeof scoremarks)
 
 //Number  conversion
 let valueinnumber =Number(scoremarks)
-//console.log(valueinnumber)
+console.log(valueinnumber)
 
 
 /*
@@ -21,9 +21,24 @@ false 0
 //string conversion
 let somenumber =33
 let stringinnum =String(somenumber)
-//console.log(typeof stringinnum)
+console.log(typeof stringinnum)
 
 //boolean conversion
 let a= 1
 let booleanin=Boolean(a)
 console.log(booleanin)
+
+//****************************OPERATIONS***************************************
+let value =3
+let negvalue =-value
+console.log(negvalue)
+
+let str ="Sam"
+let str1 ="gang"
+
+let str3=str+ str1;
+console.log(str3)
+
+let gamechanger =100
+gamechanger++;
+console.log(gamechanger)
